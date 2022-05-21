@@ -29,9 +29,28 @@ GraphQL
 REST API
 
 *API
-1-Go to pickbazar->api->rest
+1-Go to pickbazar->api->rest->src->main.ts
+2->Change 'const PORT = process.env.PORT || 5000' to 'const PORT = process.env.PORT || 5001'
+3-Back to pickbazar->api->rest
 2-Install npm packages using yarn
 3-Run the graphql API using yarn start:dev
+
+*Shop
+1-Go to pickbazar->shop
+2-Copy tsconfig.rest.json to tsconfig.json
+3-Copy .env.template to .env
+4-Update NEXT_PUBLIC_REST_API_ENDPOINT and FRAMEWORK PROVIDER to rest and other configuration
+5-Go to root fold
+6-Install all the packages using yarn
+7-Run shop using yarn dev:shop-rest
+
+*Admin
+1-Go to pickbazar->admin->rest
+2-Copy.env.template to .env
+3-Update NEXT_PUBLIC_REST_API_ENDPOINT and other configuration
+4-Go to root folder
+5-Install all the packages using yarn
+6-Run shop using yarn dev:admin-rest
 
 
 
