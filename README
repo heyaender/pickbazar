@@ -1,0 +1,38 @@
+Installation Tutorial
+
+GraphQL
+
+*API
+1-Go to pickbazar->api->graphql
+2-Install npm packages using 'yarn'
+3-Run the graphql API using 'yarn start:dev'
+
+*Shop
+1-Go to pickbazar->shop
+2-Copy tsconfig.graphql.json to tsconfig.json
+3-Copy .env.template to .env
+4-Update NEXT_PUBLIC_GRAPHQL_API_ENDPOINT and FRAMEWORK PROVIDER to graphql and other configuration
+5-Go to root folder
+6-Install all the packages using yarn
+7-Run shop using yarn dev:shop-gql
+
+*Admin
+1-Go to pickbazar->admin
+2-Copy .env.template to .env
+3-Update NEXT_PUBLIC_GRAPHQL_API_ENDPOINT and other configuration
+4-Go to root folder
+5-Install all the packages using yarn
+6-Run shop using yarn dev:admin-gql
+
+
+
+REST API
+
+*API
+1-Go to pickbazar->api->rest
+2-Install npm packages using yarn
+3-Run the graphql API using yarn start:dev
+
+
+
+
